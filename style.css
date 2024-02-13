@@ -1,0 +1,512 @@
+
+
+body,html{
+  height: 100%;
+}
+
+h3{
+  font-size: 5vh !important;
+  font-weight: bolder !important;
+}
+
+/* KEZDŐLAP */
+.bgimg-1 {
+  background-position: center;
+  background-size: cover;
+  background-image: url("IMG/bg.jpg");
+  min-height: 100%;
+  
+}
+
+#cim{font-size: 4vh !important;}
+
+#bcim{
+    font-size: 6vh !important;
+    font-weight: bolder;
+}
+
+/* MENUBAR */
+
+
+/* TESZTVEZETÉS */
+.bgimg-4{
+  background-image: url(IMG/tesztvezetesfoaoldal.jpg);
+  background-position: center;
+  background-size: cover;
+  min-height: 100%;
+  height: 90vh !important;
+  
+  
+}
+
+
+/* RÓLUNK */
+#about{
+  background-color: rgb(236, 236, 236) !important;
+}
+#rolunk{
+    margin-top: 10%;
+    
+}
+/*  */
+
+/* ELÉRTHETŐSÉG */
+#contact{
+  background-color: rgb(236, 236, 236) !important;
+}
+#contactszoveg{
+    display: inline-block;
+    font-size:2vh ;
+}
+.elerhetoseg{
+    
+    width: 55vh;
+}
+#sendemail{
+
+    border-bottom: 1px solid;
+    
+    font-size: 5vh;
+    font-weight: bold;
+    text-align: center;
+}
+#sendus{
+    background: linear-gradient(333deg, rgba(251,251,251,1) 0%, rgba(134,134,134,1) 55%, rgba(97,97,97,1) 100%);
+    position:relative;
+    float: right;
+    
+   padding-left: 15px;
+   padding-right:15px ;
+   border: 5px solid rgb(0, 0, 0);
+   border-radius: 10px;
+   margin-bottom: 2vh;
+   width: 60vh !important; 
+}
+
+#uzenet{
+    height: 10vh !important;
+    
+}
+
+.adatok-button{
+  border-radius: 5px;
+}
+
+/*  */
+
+/* AUTOS KÁRTYÁk */
+.carcenter{
+  
+  margin: left 125px !important;
+  display: flex;
+flex-direction:row;
+}
+
+
+main {
+  margin-left: 30px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 30px;
+font-family: 'Roboto', sans-serif;
+}
+
+.carcard {
+width: 50vh;
+height: 50vh;
+border-radius: 10px;
+overflow: hidden;
+cursor: pointer;
+position: relative;
+color: color-primary-white;
+box-shadow: 0 10px 30px 5px rgba(0, 0, 0, 0.2);
+
+color: white;
+
+img {
+  position: absolute;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  opacity: 0.9;
+  transition: opacity .2s ease-out;
+}
+
+h2 {
+  position: absolute;
+  inset: 235px 15px 15px 15px;
+  margin: 20px;
+  font-weight: bolder !important;
+  font-size: 3vh !important;
+  transition: inset .3s .3s ease-out;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: normal;
+  text-transform: uppercase;
+  
+}
+
+p, ul {
+  position: absolute;
+  opacity: 0;
+  max-width: 80%;
+  transition: opacity .3s ease-out;
+}
+
+p {
+  inset: 5px 5px 5px 5px;
+}
+
+ul {
+  inset: 65px 15px 15px 5px !important;
+  color: inherit;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 2.5vh;
+  border: 1px solid rgba(0, 0, 0, 0.342);
+  border-radius: 5px;
+  padding: 5px;
+  margin-left: 25px;
+ 
+  background-color: rgba(209, 209, 209, 0.26);
+  backdrop-filter: blur(5px);
+  color: rgb(255, 255, 255);
+  width: 90%;
+  height: 30vh;
+  
+}
+
+
+&:hover h2 {
+
+  inset: auto auto 35vh 7vh;
+  transition: inset .3s ease-out;
+}
+
+&:hover p, &:hover ul{
+  opacity: 1;
+  transition: opacity .5s .1s ease-in;
+}
+
+&:hover img {
+  transition: opacity .3s ease-in;
+  opacity: 1;
+}
+
+}
+
+.material-symbols-outlined {
+vertical-align: middle;
+}
+
+/*  */
+
+/* A TÉRKÉP ÉS A ELHELYEZKEDÉS  */
+#terkep{
+width: 60vh;
+height: 50vh;
+border-radius: 5px;
+border: 1px solid black;
+margin: 0 10vh 15vh 20vh ;
+}
+
+#loc{
+    margin-top: 20vh;
+    border: 1px solid rgba(0, 0, 0, 0.164);
+    background: rgba(173, 173, 173, 0.267);
+    backdrop-filter: blur(3px);
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.bgimg-2 {
+  background-position: center;
+  background-size: cover;
+  background-image: url("IMG/location.png");
+  
+  height: 70%;
+  
+}
+
+/*  */
+
+/* BMW */
+#bmw{
+  background-color: rgb(236, 236, 236);
+  padding-top: 5px;
+}
+
+.badatok{
+  width: 47vh !important;
+  height: 57vh !important;
+ 
+  padding: 0;
+  border-radius: 5px;
+  border:1px solid black;
+  margin-left: 12vh;
+  
+
+}
+
+/*  */
+
+/* MERCEDES */
+#mercedes{
+  background-color: rgb(0, 0, 0);
+  color: black;
+}
+
+.madatok{
+  width: 47vh !important;
+  height: 57vh !important ; 
+  margin: 5px;
+  padding: 0;
+  border-radius: 5px;
+  margin-left: 12vh;
+  
+  background-color: white;
+}
+/*  */
+
+.autok{
+    
+    height: 25vh !important;
+    width: 45vh !important;
+}
+.adatok-row-padding{margin-left:2.5vh !important ;}
+
+
+
+
+
+/* FOOTER  */
+.copyright{
+    
+    font-style: italic !important;
+    font-size: small !important;
+    
+    font-style: italic;
+    
+    
+    
+
+}
+
+.bgimg-3{
+  background-image: url("IMG/footer.jpg");
+} 
+
+#footerlogo{width: 12vh;
+  float: right;
+  padding: 5px; 
+  }
+  
+/*  */
+
+/*Bejelentkezés*/
+.login{
+    background-image: url(IMG/loginbg.jpg);
+   
+    width: 100%;
+    
+    font: 100 100%/1.6 "Heebo", sans-serif;
+    overflow-x: hidden;
+}
+
+.scene{
+    position: relative;
+    height: 100vh;
+    background-image: url(IMG/loginbg.jpg);
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.card{
+    height: 60vh;
+    width: 15vh;
+    min-height: 250px;
+    min-width: 250px;
+    color: aliceblue;
+    background-color: rgba(42, 120, 165, 0);
+    backdrop-filter: blur(10px);
+    border:1 px solid #fefefe;
+    border-radius: 15px;
+    box-shadow: 0 10px 35px 0 #668d6b75;
+    overflow: hidden;
+    pad: 20px 30px 50px 30px;
+    position: relative;
+    text-align: center;
+    z-index: 1;
+}
+
+.heading{
+    font-size:1.35rem ;
+    font-weight: 200;
+    margin-bottom: 15px;
+}
+
+.figure{
+    height: auto;
+    margin: 0 auto;
+    
+    
+
+}
+
+.input{
+    
+    width: 90%;
+    background-color: rgba(0, 0, 0, 0.397);
+    border: 1px solid rgba(255, 255, 255, 0.548);
+    border-radius: 3px;
+    box-sizing: border-box;
+    color:rgb(255, 255, 255);
+    display: block;
+    font-size: 1rem;
+    letter-spacing: 0.15rem;
+    padding: 10px;
+}
+.input:focus{
+    background-color: rgba(0, 0, 0, 0.74);
+    border: 1px solid whitesmoke;
+    outline: none;
+}
+
+.button{
+    background-color: white;
+    border: none;
+    border-radius: 3px;
+    color: aquamarine;
+    margin: 15px auto 0 auto;
+    padding: 8px 20px;
+    
+}
+
+.button:hover {
+    background-color: #23c483;
+    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+    color: #fff;
+    transform: translateY(-7px);
+
+  }
+  .button:active {
+    transform: translateY(-1px);
+  }
+/*  */
+
+/*Regisztráció*/
+
+.rscene{
+   
+    position:relative;
+    height: 100vh;
+    background-image: url(IMG/loginbg.jpg);
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.rcard{
+    height: 75vh;
+    width: 50vh;
+    color: aliceblue;
+    background-color: rgba(42, 120, 165, 0);
+    backdrop-filter: blur(10px);
+    border:1 px solid #fefefe;
+    border-radius: 15px;
+    box-shadow: 0 10px 35px 0 #668d6b75;
+    overflow: hidden;
+    pad: 20px 30px 50px 30px;
+    position: relative;
+    text-align: center;
+    z-index: 1;
+    
+}
+
+.rheading{
+    font-size:1.35rem ;
+    font-weight: 20px;
+    margin-bottom: 5px;
+}
+
+
+
+.rinput{
+    
+    width: 95%;
+    background-color: rgba(0, 0, 0, 0.397);
+    border: 1px solid rgba(255, 255, 255, 0.548);
+    border-radius: 3px;
+    box-sizing: border-box;
+    color:rgb(255, 255, 255);
+    display: block;
+    font-size: 1rem;
+    letter-spacing: 0.15rem;
+    padding: 10px;
+}
+.rinput:focus{
+    background-color: rgba(0, 0, 0, 0.74);
+    border: 1px solid whitesmoke;
+    outline: none;
+}
+
+.rbutton{
+    background-color: white;
+    border: none;
+    border-radius: 3px;
+    color: aquamarine;
+    margin: 15px auto 0 auto;
+    padding: 8px 20px;
+    
+}
+
+.rbutton:hover {
+    background-color: #23c483;
+    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+    color: #fff;
+    transform: translateY(-7px);
+
+  }
+  .rbutton:active {
+    transform: translateY(-1px);
+  }
+
+ 
+  .regin{
+    display: inline-block;
+  }
+
+  .newreg{
+    text-decoration: none;
+    color: white;
+    font-size: 10px;
+    font-style: italic;
+  }
+
+  .vissza{
+    text-decoration: none;
+    color: white;
+
+  }
+  
+  .img{
+    width: 17vh;
+}
+
+.rimg{
+    margin-top: 10px;
+    width: 25vh;
+    }
+/*  */
+
+
+
+
+
+
+
+/* Autó kinálat kártyák */

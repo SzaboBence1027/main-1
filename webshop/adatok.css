@@ -1,0 +1,236 @@
+html{box-sizing:border-box}*,*:before,*:after{box-sizing:inherit}
+
+html{-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}
+article,aside,details,figcaption,figure,footer,header,main,menu,nav,section{display:block}summary{display:list-item}
+audio,canvas,progress,video{display:inline-block}progress{vertical-align:baseline}
+audio:not([controls]){display:none;height:0}[hidden],template{display:none}
+a{background-color:transparent}a:active,a:hover{outline-width:0}
+abbr[title]{border-bottom:none;text-decoration:underline;text-decoration:underline dotted}
+b,strong{font-weight:bolder}dfn{font-style:italic}mark{background:#ff0;color:#000}
+small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}
+sub{bottom:-0.25em}sup{top:-0.5em}figure{margin:1em 40px}img{border-style:none}
+code,kbd,pre,samp{font-family:monospace,monospace;font-size:1em}hr{box-sizing:content-box;height:0;overflow:visible}
+button,input,select,textarea,optgroup{font:inherit;margin:0}optgroup{font-weight:bold}
+button,input{overflow:visible}button,select{text-transform:none}
+button,[type=button],[type=reset],[type=submit]{-webkit-appearance:button}
+button::-moz-focus-inner,[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner{border-style:none;padding:0}
+button:-moz-focusring,[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring{outline:1px dotted ButtonText}
+fieldset{border:1px solid #c0c0c0;margin:0 2px;padding:.35em .625em .75em}
+legend{color:inherit;display:table;max-width:100%;padding:0;white-space:normal}textarea{overflow:auto}
+[type=checkbox],[type=radio]{padding:0}
+[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}
+[type=search]{-webkit-appearance:textfield;outline-offset:-2px}
+[type=search]::-webkit-search-decoration{-webkit-appearance:none}
+::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}
+/* End extract */
+html,body{font-family:Verdana,sans-serif;font-size:15px;line-height:1.5}html{overflow-x:hidden}
+h1{font-size:36px}h2{font-size:30px}h3{font-size:24px}h4{font-size:20px}h5{font-size:18px}h6{font-size:16px}
+.adatok-serif{font-family:serif}.adatok-sans-serif{font-family:sans-serif}.adatok-cursive{font-family:cursive}.adatok-monospace{font-family:monospace}
+h1,h2,h3,h4,h5,h6{font-family:"Segoe UI",Arial,sans-serif;font-weight:400;margin:10px 0}.adatok-wide{letter-spacing:4px}
+hr{border:0;border-top:1px solid #eee;margin:20px 0}
+.adatok-image{max-width:100%;height:auto}img{vertical-align:middle}a{color:inherit}
+.adatok-table,.adatok-table-all{border-collapse:collapse;border-spacing:0;width:100%;display:table}.adatok-table-all{border:1px solid #ccc}
+.adatok-bordered tr,.adatok-table-all tr{border-bottom:1px solid #ddd}.adatok-striped tbody tr:nth-child(even){background-color:#f1f1f1}
+.adatok-table-all tr:nth-child(odd){background-color:#fff}.adatok-table-all tr:nth-child(even){background-color:#f1f1f1}
+.adatok-hoverable tbody tr:hover,.adatok-ul.adatok-hoverable li:hover{background-color:#ccc}.adatok-centered tr th,.adatok-centered tr td{text-align:center}
+.adatok-table td,.adatok-table th,.adatok-table-all td,.adatok-table-all th{padding:8px 8px;display:table-cell;text-align:left;vertical-align:top}
+.adatok-table th:first-child,.adatok-table td:first-child,.adatok-table-all th:first-child,.adatok-table-all td:first-child{padding-left:16px}
+.adatok-btn,.adatok-button{border:none;display:inline-block;padding:8px 16px;vertical-align:middle;overflow:hidden;text-decoration:none;color:inherit;background-color:inherit;text-align:center;cursor:pointer;white-space:nowrap}
+.adatok-btn:hover{box-shadow:0 8px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19)}
+.adatok-btn,.adatok-button{-webkit-touch-callout:none;-webkit-user-select:none;-khtml-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}   
+.adatok-disabled,.adatok-btn:disabled,.adatok-button:disabled{cursor:not-allowed;opacity:0.3}.adatok-disabled *,:disabled *{pointer-events:none}
+.adatok-btn.adatok-disabled:hover,.adatok-btn:disabled:hover{box-shadow:none}
+.adatok-badge,.adatok-tag{background-color:#000;color:#fff;display:inline-block;padding-left:8px;padding-right:8px;text-align:center}.adatok-badge{border-radius:50%}
+.adatok-ul{list-style-type:none;padding:0;margin:0}.adatok-ul li{padding:8px 16px;border-bottom:1px solid #ddd}.adatok-ul li:last-child{border-bottom:none}
+.adatok-tooltip,.adatok-display-container{position:relative}.adatok-tooltip .adatok-text{display:none}.adatok-tooltip:hover .adatok-text{display:inline-block}
+.adatok-ripple:active{opacity:0.5}.adatok-ripple{transition:opacity 0s}
+.adatok-input{padding:8px;display:block;border:none;border-bottom:1px solid #ccc;width:100%}
+.adatok-select{padding:9px 0;width:100%;border:none;border-bottom:1px solid #ccc}
+.adatok-dropdown-click,.adatok-dropdown-hover{position:relative;display:inline-block;cursor:pointer}
+.adatok-dropdown-hover:hover .adatok-dropdown-content{display:block}
+.adatok-dropdown-hover:first-child,.adatok-dropdown-click:hover{background-color:#ccc;color:#000}
+.adatok-dropdown-hover:hover > .adatok-button:first-child,.adatok-dropdown-click:hover > .adatok-button:first-child{background-color:#ccc;color:#000}
+.adatok-dropdown-content{cursor:auto;color:#000;background-color:#fff;display:none;position:absolute;min-width:160px;margin:0;padding:0;z-index:1}
+.adatok-check,.adatok-radio{width:24px;height:24px;position:relative;top:6px}
+.adatok-sidebar{height:100%;width:200px;background-color:#fff;position:fixed!important;z-index:1;overflow:auto}
+.adatok-bar-block .adatok-dropdown-hover,.adatok-bar-block .adatok-dropdown-click{width:100%}
+.adatok-bar-block .adatok-dropdown-hover .adatok-dropdown-content,.adatok-bar-block .adatok-dropdown-click .adatok-dropdown-content{min-width:100%}
+.adatok-bar-block .adatok-dropdown-hover .adatok-button,.adatok-bar-block .adatok-dropdown-click .adatok-button{width:100%;text-align:left;padding:8px 16px}
+.adatok-main,#main{transition:margin-left .4s}
+.adatok-modal{z-index:3;display:none;padding-top:100px;position:fixed;left:0;top:0;width:100%;height:100%;overflow:auto;background-color:rgb(0,0,0);background-color:rgba(0,0,0,0.4)}
+.adatok-modal-content{margin:auto;background-color:#fff;position:relative;padding:0;outline:0;width:600px}
+.adatok-bar{width:100%;overflow:hidden}.adatok-center .adatok-bar{display:inline-block;width:auto}
+.adatok-bar .adatok-bar-item{padding:8px 16px;float:left;width:auto;border:none;display:block;outline:0}
+.adatok-bar .adatok-dropdown-hover,.adatok-bar .adatok-dropdown-click{position:static;float:left}
+.adatok-bar .adatok-button{white-space:normal}
+.adatok-bar-block .adatok-bar-item{width:100%;display:block;padding:8px 16px;text-align:left;border:none;white-space:normal;float:none;outline:0}
+.adatok-bar-block.adatok-center .adatok-bar-item{text-align:center}.adatok-block{display:block;width:100%}
+.adatok-responsive{display:block;overflow-x:auto}
+.adatok-container:after,.adatok-container:before,.adatok-panel:after,.adatok-panel:before,.adatok-row:after,.adatok-row:before,.adatok-row-padding:after,.adatok-row-padding:before,
+.adatok-cell-row:before,.adatok-cell-row:after,.adatok-clear:after,.adatok-clear:before,.adatok-bar:before,.adatok-bar:after{content:"";display:table;clear:both}
+.adatok-col,.adatok-half,.adatok-third,.adatok-twothird,.adatok-threequarter,.adatok-quarter{float:left;width:100%}
+.adatok-col.s1{width:8.33333%}.adatok-col.s2{width:16.66666%}.adatok-col.s3{width:24.99999%}.adatok-col.s4{width:33.33333%}
+.adatok-col.s5{width:41.66666%}.adatok-col.s6{width:49.99999%}.adatok-col.s7{width:58.33333%}.adatok-col.s8{width:66.66666%}
+.adatok-col.s9{width:74.99999%}.adatok-col.s10{width:83.33333%}.adatok-col.s11{width:91.66666%}.adatok-col.s12{width:99.99999%}
+@media (min-width:601px){.adatok-col.m1{width:8.33333%}.adatok-col.m2{width:16.66666%}.adatok-col.m3,.adatok-quarter{width:24.99999%}.adatok-col.m4,.adatok-third{width:33.33333%}
+.adatok-col.m5{width:41.66666%}.adatok-col.m6,.adatok-half{width:49.99999%}.adatok-col.m7{width:58.33333%}.adatok-col.m8,.adatok-twothird{width:66.66666%}
+.adatok-col.m9,.adatok-threequarter{width:74.99999%}.adatok-col.m10{width:83.33333%}.adatok-col.m11{width:91.66666%}.adatok-col.m12{width:99.99999%}}
+@media (min-width:993px){.adatok-col.l1{width:8.33333%}.adatok-col.l2{width:16.66666%}.adatok-col.l3{width:24.99999%}.adatok-col.l4{width:33.33333%}
+.adatok-col.l5{width:41.66666%}.adatok-col.l6{width:49.99999%}.adatok-col.l7{width:58.33333%}.adatok-col.l8{width:66.66666%}
+.adatok-col.l9{width:74.99999%}.adatok-col.l10{width:83.33333%}.adatok-col.l11{width:91.66666%}.adatok-col.l12{width:99.99999%}}
+.adatok-rest{overflow:hidden}.adatok-stretch{margin-left:-16px;margin-right:-16px}
+.adatok-content,.adatok-auto{margin-left:auto;margin-right:auto}.adatok-content{max-width:980px}.adatok-auto{max-width:1140px}
+.adatok-cell-row{display:table;width:100%}.adatok-cell{display:table-cell}
+.adatok-cell-top{vertical-align:top}.adatok-cell-middle{vertical-align:middle}.adatok-cell-bottom{vertical-align:bottom}
+.adatok-hide{display:none!important}.adatok-show-block,.adatok-show{display:block!important}.adatok-show-inline-block{display:inline-block!important}
+@media (max-width:1205px){.adatok-auto{max-width:95%}}
+@media (max-width:600px){.adatok-modal-content{margin:0 10px;width:auto!important}.adatok-modal{padding-top:30px}
+.adatok-dropdown-hover.adatok-mobile .adatok-dropdown-content,.adatok-dropdown-click.adatok-mobile .adatok-dropdown-content{position:relative}	
+.adatok-hide-small{display:none!important}.adatok-mobile{display:block;width:100%!important}.adatok-bar-item.adatok-mobile,.adatok-dropdown-hover.adatok-mobile,.adatok-dropdown-click.adatok-mobile{text-align:center}
+.adatok-dropdown-hover.adatok-mobile,.adatok-dropdown-hover.adatok-mobile .adatok-btn,.adatok-dropdown-hover.adatok-mobile .adatok-button,.adatok-dropdown-click.adatok-mobile,.adatok-dropdown-click.adatok-mobile .adatok-btn,.adatok-dropdown-click.adatok-mobile .adatok-button{width:100%}}
+@media (max-width:768px){.adatok-modal-content{width:500px}.adatok-modal{padding-top:50px}}
+@media (min-width:993px){.adatok-modal-content{width:900px}.adatok-hide-large{display:none!important}.adatok-sidebar.adatok-collapse{display:block!important}}
+@media (max-width:992px) and (min-width:601px){.adatok-hide-medium{display:none!important}}
+@media (max-width:992px){.adatok-sidebar.adatok-collapse{display:none}.adatok-main{margin-left:0!important;margin-right:0!important}.adatok-auto{max-width:100%}}
+.adatok-top,.adatok-bottom{position:fixed;width:100%;z-index:1}.adatok-top{top:0}.adatok-bottom{bottom:0}
+.adatok-overlay{position:fixed;display:none;width:100%;height:100%;top:0;left:0;right:0;bottom:0;background-color:rgba(0,0,0,0.5);z-index:2}
+.adatok-display-topleft{position:absolute;left:0;top:0}.adatok-display-topright{position:absolute;right:0;top:0}
+.adatok-display-bottomleft{position:absolute;left:0;bottom:0}.adatok-display-bottomright{position:absolute;right:0;bottom:0}
+.adatok-display-middle{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);-ms-transform:translate(-50%,-50%)}
+.adatok-display-left{position:absolute;top:50%;left:0%;transform:translate(0%,-50%);-ms-transform:translate(-0%,-50%)}
+.adatok-display-right{position:absolute;top:50%;right:0%;transform:translate(0%,-50%);-ms-transform:translate(0%,-50%)}
+.adatok-display-topmiddle{position:absolute;left:50%;top:0;transform:translate(-50%,0%);-ms-transform:translate(-50%,0%)}
+.adatok-display-bottommiddle{position:absolute;left:50%;bottom:0;transform:translate(-50%,0%);-ms-transform:translate(-50%,0%)}
+.adatok-display-container:hover .adatok-display-hover{display:block}.adatok-display-container:hover span.adatok-display-hover{display:inline-block}.adatok-display-hover{display:none}
+.adatok-display-position{position:absolute}
+.adatok-circle{border-radius:50%}
+.adatok-round-small{border-radius:2px}.adatok-round,.adatok-round-medium{border-radius:4px}.adatok-round-large{border-radius:8px}.adatok-round-xlarge{border-radius:16px}.adatok-round-xxlarge{border-radius:32px}
+.adatok-row-padding,.adatok-row-padding>.adatok-half,.adatok-row-padding>.adatok-third,.adatok-row-padding>.adatok-twothird,.adatok-row-padding>.adatok-threequarter,.adatok-row-padding>.adatok-quarter,.adatok-row-padding>.adatok-col{padding:0 8px}
+.adatok-container,.adatok-panel{padding:0.01em 16px}.adatok-panel{margin-top:16px;margin-bottom:16px}
+.adatok-code,.adatok-codespan{font-family:Consolas,"courier new";font-size:16px}
+.adatok-code{width:auto;background-color:#fff;padding:8px 12px;border-left:4px solid #4CAF50;word-wrap:break-word}
+.adatok-codespan{color:crimson;background-color:#f1f1f1;padding-left:4px;padding-right:4px;font-size:110%}
+.adatok-card,.adatok-card-2{box-shadow:0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12)}
+.adatok-card-4,.adatok-hover-shadow:hover{box-shadow:0 4px 10px 0 rgba(0,0,0,0.2),0 4px 20px 0 rgba(0,0,0,0.19)}
+.adatok-spin{animation:adatok-spin 2s infinite linear}@keyframes adatok-spin{0%{transform:rotate(0deg)}100%{transform:rotate(359deg)}}
+.adatok-animate-fading{animation:fading 10s infinite}@keyframes fading{0%{opacity:0}50%{opacity:1}100%{opacity:0}}
+.adatok-animate-opacity{animation:opac 0.8s}@keyframes opac{from{opacity:0} to{opacity:1}}
+.adatok-animate-top{position:relative;animation:animatetop 0.4s}@keyframes animatetop{from{top:-300px;opacity:0} to{top:0;opacity:1}}
+.adatok-animate-left{position:relative;animation:animateleft 0.4s}@keyframes animateleft{from{left:-300px;opacity:0} to{left:0;opacity:1}}
+.adatok-animate-right{position:relative;animation:animateright 0.4s}@keyframes animateright{from{right:-300px;opacity:0} to{right:0;opacity:1}}
+.adatok-animate-bottom{position:relative;animation:animatebottom 0.4s}@keyframes animatebottom{from{bottom:-300px;opacity:0} to{bottom:0;opacity:1}}
+.adatok-animate-zoom {animation:animatezoom 0.6s}@keyframes animatezoom{from{transform:scale(0)} to{transform:scale(1)}}
+.adatok-animate-input{transition:width 0.4s ease-in-out}.adatok-animate-input:focus{width:100%!important}
+.adatok-opacity,.adatok-hover-opacity:hover{opacity:0.60}.adatok-opacity-off,.adatok-hover-opacity-off:hover{opacity:1}
+.adatok-opacity-max{opacity:0.25}.adatok-opacity-min{opacity:0.75}
+.adatok-greyscale-max,.adatok-grayscale-max,.adatok-hover-greyscale:hover,.adatok-hover-grayscale:hover{filter:grayscale(100%)}
+.adatok-greyscale,.adatok-grayscale{filter:grayscale(75%)}.adatok-greyscale-min,.adatok-grayscale-min{filter:grayscale(50%)}
+.adatok-sepia{filter:sepia(75%)}.adatok-sepia-max,.adatok-hover-sepia:hover{filter:sepia(100%)}.adatok-sepia-min{filter:sepia(50%)}
+.adatok-tiny{font-size:10px!important}.adatok-small{font-size:12px!important}.adatok-medium{font-size:15px!important}.adatok-large{font-size:18px!important}
+.adatok-xlarge{font-size:24px!important}.adatok-xxlarge{font-size:36px!important}.adatok-xxxlarge{font-size:48px!important}.adatok-jumbo{font-size:64px!important}
+.adatok-left-align{text-align:left!important}.adatok-right-align{text-align:right!important}.adatok-justify{text-align:justify!important}.adatok-center{text-align:center!important}
+.adatok-border-0{border:0!important}.adatok-border{border:1px solid #ccc!important}
+.adatok-border-top{border-top:1px solid #ccc!important}.adatok-border-bottom{border-bottom:1px solid #ccc!important}
+.adatok-border-left{border-left:1px solid #ccc!important}.adatok-border-right{border-right:1px solid #ccc!important}
+.adatok-topbar{border-top:6px solid #ccc!important}.adatok-bottombar{border-bottom:6px solid #ccc!important}
+.adatok-leftbar{border-left:6px solid #ccc!important}.adatok-rightbar{border-right:6px solid #ccc!important}
+.adatok-section,.adatok-code{margin-top:16px!important;margin-bottom:16px!important}
+.adatok-margin{margin:16px!important}.adatok-margin-top{margin-top:16px!important}.adatok-margin-bottom{margin-bottom:16px!important}
+.adatok-margin-left{margin-left:16px!important}.adatok-margin-right{margin-right:16px!important}
+.adatok-padding-small{padding:4px 8px!important}.adatok-padding{padding:8px 16px!important}.adatok-padding-large{padding:12px 24px!important}
+.adatok-padding-16{padding-top:16px!important;padding-bottom:16px!important}.adatok-padding-24{padding-top:24px!important;padding-bottom:24px!important}
+.adatok-padding-32{padding-top:32px!important;padding-bottom:32px!important}.adatok-padding-48{padding-top:48px!important;padding-bottom:48px!important}
+.adatok-padding-64{padding-top:64px!important;padding-bottom:64px!important}
+.adatok-padding-top-64{padding-top:64px!important}.adatok-padding-top-48{padding-top:48px!important}
+.adatok-padding-top-32{padding-top:32px!important}.adatok-padding-top-24{padding-top:24px!important}
+.adatok-left{float:left!important}.adatok-right{float:right!important}
+.adatok-button:hover{color:#000!important;background-color:#ccc!important}
+.adatok-transparent,.adatok-hover-none:hover{background-color:transparent!important}
+.adatok-hover-none:hover{box-shadow:none!important}
+
+
+/* Colors */
+.adatok-amber,.adatok-hover-amber:hover{color:#000!important;background-color:#ffc107!important}
+.adatok-aqua,.adatok-hover-aqua:hover{color:#000!important;background-color:#00ffff!important}
+.adatok-blue,.adatok-hover-blue:hover{color:#fff!important;background-color:#2196F3!important}
+.adatok-light-blue,.adatok-hover-light-blue:hover{color:#000!important;background-color:#87CEEB!important}
+.adatok-brown,.adatok-hover-brown:hover{color:#fff!important;background-color:#795548!important}
+.adatok-cyan,.adatok-hover-cyan:hover{color:#000!important;background-color:#00bcd4!important}
+.adatok-blue-grey,.adatok-hover-blue-grey:hover,.adatok-blue-gray,.adatok-hover-blue-gray:hover{color:#fff!important;background-color:#607d8b!important}
+.adatok-green,.adatok-hover-green:hover{color:#fff!important;background-color:#4CAF50!important}
+.adatok-light-green,.adatok-hover-light-green:hover{color:#000!important;background-color:#8bc34a!important}
+.adatok-indigo,.adatok-hover-indigo:hover{color:#fff!important;background-color:#3f51b5!important}
+.adatok-khaki,.adatok-hover-khaki:hover{color:#000!important;background-color:#f0e68c!important}
+.adatok-lime,.adatok-hover-lime:hover{color:#000!important;background-color:#cddc39!important}
+.adatok-orange,.adatok-hover-orange:hover{color:#000!important;background-color:#ff9800!important}
+.adatok-deep-orange,.adatok-hover-deep-orange:hover{color:#fff!important;background-color:#ff5722!important}
+.adatok-pink,.adatok-hover-pink:hover{color:#fff!important;background-color:#e91e63!important}
+.adatok-purple,.adatok-hover-purple:hover{color:#fff!important;background-color:#9c27b0!important}
+.adatok-deep-purple,.adatok-hover-deep-purple:hover{color:#fff!important;background-color:#673ab7!important}
+.adatok-red,.adatok-hover-red:hover{color:#fff!important;background-color:#f44336!important}
+.adatok-sand,.adatok-hover-sand:hover{color:#000!important;background-color:#fdf5e6!important}
+.adatok-teal,.adatok-hover-teal:hover{color:#fff!important;background-color:#009688!important}
+.adatok-yellow,.adatok-hover-yellow:hover{color:#000!important;background-color:#ffeb3b!important}
+.adatok-white,.adatok-hover-white:hover{color:#000!important;background-color:#fff!important}
+.adatok-black,.adatok-hover-black:hover{color:#fff!important;background-color:#000!important}
+.adatok-grey,.adatok-hover-grey:hover,.adatok-gray,.adatok-hover-gray:hover{color:#000!important;background-color:#9e9e9e!important}
+.adatok-light-grey,.adatok-hover-light-grey:hover,.adatok-light-gray,.adatok-hover-light-gray:hover{color:#000!important;background-color:#f1f1f1!important}
+.adatok-dark-grey,.adatok-hover-dark-grey:hover,.adatok-dark-gray,.adatok-hover-dark-gray:hover{color:#fff!important;background-color:#616161!important}
+.adatok-pale-red,.adatok-hover-pale-red:hover{color:#000!important;background-color:#ffdddd!important}
+.adatok-pale-green,.adatok-hover-pale-green:hover{color:#000!important;background-color:#ddffdd!important}
+.adatok-pale-yellow,.adatok-hover-pale-yellow:hover{color:#000!important;background-color:#ffffcc!important}
+.adatok-pale-blue,.adatok-hover-pale-blue:hover{color:#000!important;background-color:#ddffff!important}
+.adatok-text-amber,.adatok-hover-text-amber:hover{color:#ffc107!important}
+.adatok-text-aqua,.adatok-hover-text-aqua:hover{color:#00ffff!important}
+.adatok-text-blue,.adatok-hover-text-blue:hover{color:#2196F3!important}
+.adatok-text-light-blue,.adatok-hover-text-light-blue:hover{color:#87CEEB!important}
+.adatok-text-brown,.adatok-hover-text-brown:hover{color:#795548!important}
+.adatok-text-cyan,.adatok-hover-text-cyan:hover{color:#00bcd4!important}
+.adatok-text-blue-grey,.adatok-hover-text-blue-grey:hover,.adatok-text-blue-gray,.adatok-hover-text-blue-gray:hover{color:#607d8b!important}
+.adatok-text-green,.adatok-hover-text-green:hover{color:#4CAF50!important}
+.adatok-text-light-green,.adatok-hover-text-light-green:hover{color:#8bc34a!important}
+.adatok-text-indigo,.adatok-hover-text-indigo:hover{color:#3f51b5!important}
+.adatok-text-khaki,.adatok-hover-text-khaki:hover{color:#b4aa50!important}
+.adatok-text-lime,.adatok-hover-text-lime:hover{color:#cddc39!important}
+.adatok-text-orange,.adatok-hover-text-orange:hover{color:#ff9800!important}
+.adatok-text-deep-orange,.adatok-hover-text-deep-orange:hover{color:#ff5722!important}
+.adatok-text-pink,.adatok-hover-text-pink:hover{color:#e91e63!important}
+.adatok-text-purple,.adatok-hover-text-purple:hover{color:#9c27b0!important}
+.adatok-text-deep-purple,.adatok-hover-text-deep-purple:hover{color:#673ab7!important}
+.adatok-text-red,.adatok-hover-text-red:hover{color:#f44336!important}
+.adatok-text-sand,.adatok-hover-text-sand:hover{color:#fdf5e6!important}
+.adatok-text-teal,.adatok-hover-text-teal:hover{color:#009688!important}
+.adatok-text-yellow,.adatok-hover-text-yellow:hover{color:#d2be0e!important}
+.adatok-text-white,.adatok-hover-text-white:hover{color:#fff!important}
+.adatok-text-black,.adatok-hover-text-black:hover{color:#000!important}
+.adatok-text-grey,.adatok-hover-text-grey:hover,.adatok-text-gray,.adatok-hover-text-gray:hover{color:#757575!important}
+.adatok-text-light-grey,.adatok-hover-text-light-grey:hover,.adatok-text-light-gray,.adatok-hover-text-light-gray:hover{color:#f1f1f1!important}
+.adatok-text-dark-grey,.adatok-hover-text-dark-grey:hover,.adatok-text-dark-gray,.adatok-hover-text-dark-gray:hover{color:#3a3a3a!important}
+.adatok-border-amber,.adatok-hover-border-amber:hover{border-color:#ffc107!important}
+.adatok-border-aqua,.adatok-hover-border-aqua:hover{border-color:#00ffff!important}
+.adatok-border-blue,.adatok-hover-border-blue:hover{border-color:#2196F3!important}
+.adatok-border-light-blue,.adatok-hover-border-light-blue:hover{border-color:#87CEEB!important}
+.adatok-border-brown,.adatok-hover-border-brown:hover{border-color:#795548!important}
+.adatok-border-cyan,.adatok-hover-border-cyan:hover{border-color:#00bcd4!important}
+.adatok-border-blue-grey,.adatok-hover-border-blue-grey:hover,.adatok-border-blue-gray,.adatok-hover-border-blue-gray:hover{border-color:#607d8b!important}
+.adatok-border-green,.adatok-hover-border-green:hover{border-color:#4CAF50!important}
+.adatok-border-light-green,.adatok-hover-border-light-green:hover{border-color:#8bc34a!important}
+.adatok-border-indigo,.adatok-hover-border-indigo:hover{border-color:#3f51b5!important}
+.adatok-border-khaki,.adatok-hover-border-khaki:hover{border-color:#f0e68c!important}
+.adatok-border-lime,.adatok-hover-border-lime:hover{border-color:#cddc39!important}
+.adatok-border-orange,.adatok-hover-border-orange:hover{border-color:#ff9800!important}
+.adatok-border-deep-orange,.adatok-hover-border-deep-orange:hover{border-color:#ff5722!important}
+.adatok-border-pink,.adatok-hover-border-pink:hover{border-color:#e91e63!important}
+.adatok-border-purple,.adatok-hover-border-purple:hover{border-color:#9c27b0!important}
+.adatok-border-deep-purple,.adatok-hover-border-deep-purple:hover{border-color:#673ab7!important}
+.adatok-border-red,.adatok-hover-border-red:hover{border-color:#f44336!important}
+.adatok-border-sand,.adatok-hover-border-sand:hover{border-color:#fdf5e6!important}
+.adatok-border-teal,.adatok-hover-border-teal:hover{border-color:#009688!important}
+.adatok-border-yellow,.adatok-hover-border-yellow:hover{border-color:#ffeb3b!important}
+.adatok-border-white,.adatok-hover-border-white:hover{border-color:#fff!important}
+.adatok-border-black,.adatok-hover-border-black:hover{border-color:#000!important}
+.adatok-border-grey,.adatok-hover-border-grey:hover,.adatok-border-gray,.adatok-hover-border-gray:hover{border-color:#9e9e9e!important}
+.adatok-border-light-grey,.adatok-hover-border-light-grey:hover,.adatok-border-light-gray,.adatok-hover-border-light-gray:hover{border-color:#f1f1f1!important}
+.adatok-border-dark-grey,.adatok-hover-border-dark-grey:hover,.adatok-border-dark-gray,.adatok-hover-border-dark-gray:hover{border-color:#616161!important}
+.adatok-border-pale-red,.adatok-hover-border-pale-red:hover{border-color:#ffe7e7!important}.adatok-border-pale-green,.adatok-hover-border-pale-green:hover{border-color:#e7ffe7!important}
+.adatok-border-pale-yellow,.adatok-hover-border-pale-yellow:hover{border-color:#ffffcc!important}.adatok-border-pale-blue,.adatok-hover-border-pale-blue:hover{border-color:#e7ffff!important}
